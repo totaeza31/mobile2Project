@@ -1,0 +1,27 @@
+<ons-page id="addressPage" >
+    
+
+    <ons-toolbar  style="background-color: white;" >
+        <div class="left">
+           
+            <ons-toolbar-button component="button/menu" id="menubtn">
+                <span class="toolbar-button toolbar-button--material" style="color: black;" id="backbtn">
+                    <i class="zmdi zmdi-chevron-left "></i>
+                    Back 
+              </span>
+            </ons-toolbar-button>
+        </div>
+        <div  class="center" style="color: black;" >Address</div>
+        
+    </ons-toolbar>
+
+    <div id='map'></div>
+    <pre id='coordinates' class='coordinates'></pre>
+
+    <ons-fab position="bottom right" id= "setAddress">
+        <ons-icon
+          icon="fa-map-pin" >
+        </ons-icon>
+      </ons-fab>
+
+  </ons-page>
